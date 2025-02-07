@@ -47,13 +47,11 @@ public class inputs {
 
 
         // MAD Libs Game 
-
         String adjective1;
         String noun1;
         String adjective2;
         String verb1;
         String adjective3;
-
         System.out.print("Enter an adjective: ");
         adjective1 = scanner.nextLine();
         System.out.print("Enter a noun: ");
@@ -64,8 +62,6 @@ public class inputs {
         verb1 = scanner.nextLine();
         System.out.print("Enter an adjective: ");
         adjective3 = scanner.nextLine();
-
-
         System.out.print("Today I went to a " + adjective1 + " city. ");
         System.out.print("Its name was " + noun1 + ". ");
         System.out.print(noun1 + " was a very " + adjective2 + " and had many cars " + verb1);
