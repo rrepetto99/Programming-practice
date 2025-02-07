@@ -14,11 +14,11 @@ public class statements {
         double socialTaxEmployer = 0.235;
         char currency = '£';
 
-        System.err.print("Enter your name: ");
+        System.out.print("Enter your name: ");
         name = scanner.nextLine();
-        System.err.print("What is your age: ");
+        System.out.print("What is your age: ");
         age = scanner.nextInt();
-        System.err.print("Enter your monthly salary: ");
+        System.out.print("Enter your monthly salary: ");
         salary = scanner.nextInt();
         retirement = 65 - age;
         double totalSocialContribution = salary*(socialTaxEmployee+socialTaxEmployer);
