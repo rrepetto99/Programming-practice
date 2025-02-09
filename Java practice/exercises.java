@@ -1,9 +1,8 @@
-import java.util.Scanner;
 public class exercises {
 
     public static void main(String[] args) {
         
-        Scanner scanner = new Scanner(System.in);
+        //Scanner scanner = new Scanner(System.in);
 
         //Exercise 1 : calculating purchase of an item
         // String item;
@@ -96,8 +95,11 @@ public class exercises {
         // }
         // System.out.print(r);
 
-        scanner.close();
+        // Exercise 9: Prime Number Checker
+    
+        //scanner.close();
     }   
+
    
 }
  
