@@ -41,10 +41,23 @@
                 <input type="email" name="email" placeholder="johndoe@gmail.com" required>
                 <input type="text" name="message" placeholder="Write me!" required>
                 <button type="submit">Submit</button>
-                <label><input type="radio" id="student" name="choice">Student</label>
-                <label><input type="radio" id="worker" name="choice">Worker</label>
+                <fieldset>
+                    <legend>Who are you?</legend>
+                    <label><input checked type="radio" id="student" name="choice" value="student">Student</label>
+                    <label><input type="radio" id="worker" name="choice" value="worker">Worker</label>
+                </fieldset>
+                <fieldset>
+                    <legend>What do you study?</legend>
+                    <input checked id="economics" type="checkbox" name="major" value="economics"><label for="econimics">Economics</label>
+                    <input id="IT" type="checkbox" name="major" value="IT"><label for="IT">IT</label>
+                    <input id="stem" type="checkbox" name="major" value="stem"><label for="stem">STEM</label>
+                    <input id="humanitarian" type="checkbox" name="major" value="humanitarian"><label for="humanitarian">Humanitarian</label>
+                </fieldset>
             </form>
         </section>
     </main>
+    <footer>
+        <p>Copyright by Rolands Repetto 2025</p>
+    </footer>
 </body>
 </html>
