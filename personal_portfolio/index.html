@@ -21,9 +21,9 @@
             <section>
                 <h3>Programming languages that I know well</h3>
                 <img src="./Images/computer.jpg" alt="computer">
-                <p>Python</p>
-                <p>HTML</p>
-                <p>CSS</p>
+                <article class="item1">
+                    <p class="python">Python</p><p class="html">HTML</p><p class="css">CSS</p>
+                </article>
             </section>
         </div>
         <section>
@@ -41,24 +41,27 @@
         </section>
         <section>
             <h2>Contact me</h2>
-            <form action="">
-                <input type="text" name="fullName" placeholder="John Doe" required>
-                <input type="email" name="email" placeholder="johndoe@gmail.com" required>
-                <input type="text" name="message" placeholder="Write me!" required>
-                <button type="submit">Submit</button>
-                <fieldset>
-                    <legend>Who are you?</legend>
-                    <label><input checked type="radio" id="student" name="choice" value="student">Student</label>
-                    <label><input type="radio" id="worker" name="choice" value="worker">Worker</label>
-                </fieldset>
-                <fieldset>
-                    <legend>What do you study?</legend>
-                    <input checked id="economics" type="checkbox" name="major" value="economics"><label for="econimics">Economics</label>
-                    <input id="IT" type="checkbox" name="major" value="IT"><label for="IT">IT</label>
-                    <input id="stem" type="checkbox" name="major" value="stem"><label for="stem">STEM</label>
-                    <input id="humanitarian" type="checkbox" name="major" value="humanitarian"><label for="humanitarian">Humanitarian</label>
-                </fieldset>
-            </form>
+            <div class="contactMe">
+                <form action="">
+                    <input type="text" name="fullName" placeholder="John Doe" class="item2" required>
+                    <input type="email" name="email" placeholder="johndoe@gmail.com" class="item2" required>
+                    <input type="text" name="message" placeholder="Write me!" class="item2" required>
+                    <fieldset class="item2">
+                        <legend>Who are you?</legend>
+                        <label><input checked type="radio" id="student" name="choice" value="student">Student</label>
+                        <label><input type="radio" id="worker" name="choice" value="worker">Worker</label>
+                    </fieldset>
+                    <fieldset class="item2">
+                        <legend>What do you study?</legend>
+                        <input checked id="economics" type="checkbox" name="major" value="economics"><label for="econimics">Economics</label>
+                        <input id="IT" type="checkbox" name="major" value="IT"><label for="IT">IT</label>
+                        <input id="stem" type="checkbox" name="major" value="stem"><label for="stem">STEM</label>
+                        <input id="humanitarian" type="checkbox" name="major" value="humanitarian"><label for="humanitarian">Humanitarian</label>
+                    </fieldset>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+
         </section>
     </main>
     <footer>

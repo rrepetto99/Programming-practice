@@ -15,6 +15,32 @@ body {
 .progLang {
     text-align: center;
     background-color: bisque;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
+}
+
+.python{
+    text-align: left;
+    width: 10%;
+}
+.html{
+    text-align: center;
+    width: 10%;
+}
+.css{
+    text-align: right;
+    width: 10%;
+}
+.item1 p{
+    display: inline-block;
+}
+.contactMe{
+    display: flex;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.item2 input, fieldset {
+    display: grid;
 }
